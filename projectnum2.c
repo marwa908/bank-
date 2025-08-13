@@ -214,7 +214,7 @@ void exporter(str_gb GB){
 		for(int i = 0; i < GB.cpt; i++){
 			printf("la raison sociale est: %s la raison commerciale est: %s le numero de patente est: %s l'annee de creation: %d le type d'activite: %s le chiffre d'affaire: %d avec %d agence bancaire", GB.bank[i].rc, GB.bank[i].rs, GB.bank[i].patente, GB.bank[i].annee_creation, GB.bank[i].type_activite, GB.bank[i].chiffre_aff, GB.bank[i].nbrab);
 			for (int j = 0; i < GB.bank[i].nbrab; i++){
-				
+				printf("la raison sociale est: %s la date ouverture est %d/%d/%d l'address est %s",b.rs);
 			}
 		}
 	}
